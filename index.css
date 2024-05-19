@@ -1,0 +1,187 @@
+/*.wrap {
+    width: 95%;
+    min-width: 900px; 
+}*/
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1295x;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+a {
+    color: rgb(56, 125, 255);
+}
+
+.login {
+    border: solid rgb(223, 217, 217);
+    border-radius: 3px;
+    text-align: left;
+    width: 480px;
+    height: 380px;
+    /*margin-left: 10%;*/
+    margin-top: 40%;
+    
+}
+
+.signin {
+    margin-left: 6%;
+    margin-top: -15px;
+    font-size: large;
+}
+
+.box1label {
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    margin-top: -21px;   
+}
+
+.emaillabel {
+    margin-right: 51%;
+}
+
+.passwordsection {
+    display: flex;
+    flex-direction: row;
+    /*margin-left: 30px;*/
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+    
+}
+
+.forgotpassword {
+    margin-left: 240px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+input.password {
+    -webkit-text-security: disc;
+}
+
+input[type=text] {
+    /*margin-left: 32px;*/
+    width: 420px;
+    height: 29px;
+    border-radius: 2px;
+    border-width: 1.5px;
+    border-color: #c8c8c8;
+    color: #aeaeae;
+}
+
+.continuebutton {
+    display: flex;
+    justify-content: center;
+    width: 429px;
+    margin-left: 5.5%;
+}
+
+input[type=submit] {
+    background: #ffbf29;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: .5px;
+    height: 30px;
+    margin-top: 5%;
+    /*height: 30px;*/
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    /*margin-top: 40px;
+    margin-left: 32px;*/
+    
+  
+}
+
+.createbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+input[type=button] {
+    background: rgb(217, 223, 237);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(166, 164, 164);
+    height: 30px;
+    width: 430px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+}
+
+.help {
+    margin-right: 70%;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 120px;
+    height: 0px;
+    position: relative;
+    top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.newtoamazon {
+    /*display: flex;*/
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.new {
+    color: gray;
+}
+
+.bottomline {
+    border-top: solid;
+    border-color: rgb(188, 184, 184);
+    border-width: 4px;
+    width: 310%;
+    margin-top: 5%;
+    margin-left:-510px;
+}
+
+.bottomlinks {
+    /*margin-left: 37%;*/
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.privacy {
+    margin-left: 10%;
+}
+
+.footerhelp {
+    margin-left: 10%;
+}
+
+.copyright {
+    /*margin-left: 42%;*/
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+
